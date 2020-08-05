@@ -1,0 +1,7 @@
+/* miniprogram/pages/editUserInfo/signature/signature.wxss */
+input{
+  margin-left:5rpx;
+  margin-right:5rpx;
+  padding-left:10rpx;
+  border:3rpx solid #B4B5B6;
+}

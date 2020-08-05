@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/nearby/nearby",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/editUserInfo/editUserInfo",
+    "pages/friendList/friendList",
+    "pages/detail/detail",
+    "pages/editUserInfo/head/head",
+    "pages/editUserInfo/location/location",
+    "pages/editUserInfo/name/name",
+    "pages/editUserInfo/phone/phone",
+    "pages/editUserInfo/signature/signature",
+    "pages/editUserInfo/weixin/weixin"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/tabBar/home.png",
+        "selectedIconPath": "imgs/tabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近",
+        "iconPath": "imgs/tabBar/nearby.png",
+        "selectedIconPath": "imgs/tabBar/nearby-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "imgs/tabBar/sms.png",
+        "selectedIconPath": "imgs/tabBar/sms-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "imgs/tabBar/user.png",
+        "selectedIconPath": "imgs/tabBar/user-active.png"
+      }
+    ],
+    "color": "#707070",
+    "selectedColor": "#0060F7"
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#3399FF",
+    "navigationBarTitleText": "自律小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json"
+}

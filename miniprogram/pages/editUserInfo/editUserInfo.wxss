@@ -1,0 +1,15 @@
+/* miniprogram/pages/enditUserInfo/enditUserInfo.wxss */
+.editUserInfo{
+  margin-top:50rpx;
+}
+.editUserInfo-list-item{
+  display:flex;
+  justify-content: space-between;
+  margin-top:15rpx;
+  padding:15rpx;
+  border-bottom:3rpx dotted #B4B5B6;
+}
+.editUserInfo-list-item .editUserInfo-list-tip{
+  font-size:26rpx;
+  color:red;
+}

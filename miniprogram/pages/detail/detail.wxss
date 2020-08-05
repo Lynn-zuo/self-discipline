@@ -1,0 +1,19 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail-item{
+  display:flex;
+  align-items:center;
+  margin:38rpx;
+  border-bottom:2rpx dashed #b4b5b6;
+  padding-bottom:20rpx;
+}
+.detail-item image{
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
+}
+.detail-item call-phone{
+  margin-left:10rpx;
+}
+.detail-item copy-text{
+  margin-left:10rpx;
+}
